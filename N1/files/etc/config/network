@@ -11,6 +11,7 @@ config interface 'lan'
 	option ipaddr '10.11.11.2'
 	option gateway '10.11.11.1'
 	option delegate '0'
+    list dns '10.11.11.1'
 
 config device
 	option name 'br-lan'
